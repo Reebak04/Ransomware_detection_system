@@ -9,6 +9,29 @@ The project will focus on designing a signature-based ransomware detection syste
 ## Source :
 A collection of ransomware signatures, typically provided by cybersecurity research institutions, antivirus vendors, or open-source malware repositories.(eg: VirusTotal, Hybrid Analysis, or open-source threat intelligence feeds)Used to identify known ransomware by comparing file patterns, hashes, or binary code signatures with those in the database.
 
+## Approach:
+1. Data Collection
+2. Data Preprocessing
+3. Design and Development of Detection System
+4. Development of Automated Backup System
+5. Detection and Backup Integration
+6. Evaluation and Testing
+7. Performance Metrics and Model Evaluation
+8. Deployment and Maintenance
+
+## Installation :
+To run this project, you will need to have Python installed on your machine. Follow these steps to set up the environment:
+
+Clone the repository:
+```
+git clone https://github.com/Reebak04/Ransomware_detection_system.git
+cd Ransomware_detection_system
+```
+Install the required packages:
+```
+pip install -r requirements.txt
+```
+
 ## Sequence Diagram :
 ![image](https://github.com/user-attachments/assets/f5ac1282-9450-45d3-94ee-cb05d9a1067d)
 
